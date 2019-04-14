@@ -1,0 +1,42 @@
+-------------- POLYNOMIAL KERNEL --------------
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/svm/base.py:196: FutureWarning: The default value of gamma will change from 'auto' to 'scale' in version 0.22 to account better for unscaled features. Set gamma explicitly to 'auto' or 'scale' to avoid this warning.
+  "avoid this warning.", FutureWarning)
+[[10  0  0]
+ [ 0  8  2]
+ [ 0  4  6]]
+                 precision    recall  f1-score   support
+
+    Iris-setosa       1.00      1.00      1.00        10
+Iris-versicolor       0.67      0.80      0.73        10
+ Iris-virginica       0.75      0.60      0.67        10
+
+      micro avg       0.80      0.80      0.80        30
+      macro avg       0.81      0.80      0.80        30
+   weighted avg       0.81      0.80      0.80        30
+
+-------------- GAUSSIAN KERNEL --------------
+[[10  0  0]
+ [ 0 10  0]
+ [ 0  0 10]]
+                 precision    recall  f1-score   support
+
+    Iris-setosa       1.00      1.00      1.00        10
+Iris-versicolor       1.00      1.00      1.00        10
+ Iris-virginica       1.00      1.00      1.00        10
+
+      micro avg       1.00      1.00      1.00        30
+      macro avg       1.00      1.00      1.00        30
+   weighted avg       1.00      1.00      1.00        30
+
+[[ 1  0  9]
+ [10  0  0]
+ [10  0  0]]
+                 precision    recall  f1-score   support
+
+    Iris-setosa       0.05      0.10      0.06        10
+Iris-versicolor       0.00      0.00      0.00        10
+ Iris-virginica       0.00      0.00      0.00        10
+
+      micro avg       0.03      0.03      0.03        30
+      macro avg       0.02      0.03      0.02        30
+   weighted avg       0.02      0.03      0.02        30
